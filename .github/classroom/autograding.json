@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Test data",
+      "setup": "g++ -o a.out ./Lab/Lab12-Structure.cpp",
+      "run": "./a.out",
+      "input": "John Doe\r\n301\r\n77\r\n64\r\n66\r\n54\r\n56\r\nJane Smith\r\n302\r\n43\r\n70\r\n76\r\n77\r\n80\r\nMark Johnson\r\n303\r\n77\r\n74\r\n76\r\n81\r\n69",
+      "output": "Student Details:\r\nStudent 1:\r\nName: John Doe\r\nID: 301\r\nScores: 77 64 66 54 56\r\nGrades: B+  C C+ D  D+\r\nAverage Scores: 63.4\r\n\r\nStudent 2:\r\nName: Jane Smith\r\nID: 302\r\nScores: 43 70 76 77 80\r\nGrades:  F  B B+ B+  A\r\nAverage Scores: 69.2\r\n\r\nStudent 3:\r\nName: Mark Johnson\r\nID: 303\r\nScores: 77 74 76 81 69\r\nGrades: B+  B B+  A C+\r\nAverage Scores: 75.4",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
